@@ -1,0 +1,164 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+.clickable {
+    cursor: pointer;
+}
+/**Hover on Links**/
+#nav-content li :hover img {
+    display: none;
+}
+img.solid-hover {
+    display: none;
+}
+#nav-content li :hover img.solid-hover {
+    display: inline;
+}
+#nav-content li img.lens:hover {
+    transform: scale(1.1);
+}
+
+/**Hover on products**/
+.devices img.inactive:hover {
+.devices .inactive:hover {
+    opacity: 1;
+}
+
+.cards img:hover {
+    animation: swing 1s ease-in-out;
+}
+.games img:hover {
+    animation: swing 1s ease-in-out;
+}
+@keyframes swing
+{
+    0%
+    {
+        transform: translateY(0px);
+    }
+    50% 
+    {
+        transform: translateY(-20px);
+    }
+    100%
+    {
+        transform: translateY(0px);
+    }
+}
+/**Effetti hover buttons**/
+.btn {
+    border: 2px solid transparent;
+    box-shadow:0 0 0 0px transparent, 0 0 0 2px transparent;
+}
+.btn:hover:not(.btn-grey , .btn-white , .btn-orange) {
+    border: 2px solid white;
+}
+.btn-orange:hover {
+    border-color:black;
+    box-shadow: 0 0 0 2px #da5e00;
+}
+.btn-blue:hover {
+    box-shadow: 0 0 0 2px #0072CE;
+}
+.btn-dark:hover {
+    box-shadow: 0 0 0 2px #000;
+}
+.btn-dark:hover {
+    box-shadow: 0 0 0 2px #000;
+}
+.btn-grey:hover {
+    color: #0072CE;
+    box-shadow:0 0 0 4px #b9b8b8;
+}
+.btn-white:hover {
+    border: 2px solid #00439C;
+    box-shadow: 0 0 0 2px white;
+}
+/**Header**/
+a {
+    color: black;
+}
+#sony-bar {
+    height: 40px;
+    background-color: black;
+    text-align: right;
+}
+#sony-bar img {
+    width: 80px;
+    position: relative;
+    top: 15%;
+    right: 0;
+}
+#nav-content {
+    font-size: 16px;
+    background-color: #fff;
+}
+#nav-content .logo-container img {
+    width: 60px;
+}
+#nav-content li img {
+    width: 10px;
+}
+#nav-content li img.lens {
+    width: 30px;
+}
+.nav-menu-right,
+.hamburger-menu {
+    text-align: right;
+}
+.cs-bi-list {
+    font-size: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+/**First jumbotron**/
+#main-jumbotron{
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 350px;
+    padding-bottom: 50px;
+}
+body {
+    margin-top: 100px;
+}
+.btn-orange {
+    background-color: #CD3D0F;
+}
+.hero-logo {
+    max-width: 60%;
+}
+h1, h2 {
+    font-size: 38px;
+}
+.jumbo-article p {
+    font-size: 16px;
+}
+/**Cards**/
+.cards img,
+.console img,
+.devices img,
+.games img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+.border-active-blue {
+    padding: 3px;
+    box-shadow: 0 0 0 2px #0072CE;
+}
+.border-orange:hover {
+    outline: none;
+    box-shadow: 0 0 0 2px #CD3D0F;
+}
+.cs-text-blue {
+    color: #0072CE;
+}
+.btn-blue {
+    background-color: #0072CE;
+}
+
+.devices img.inactive {
+.devices .inactive {
+    opacity: 0.6;
+}
